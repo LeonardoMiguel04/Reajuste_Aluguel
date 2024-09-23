@@ -1,3 +1,3 @@
 # Reajuste_Aluguel
 
-https://prod.liveshare.vsengsaas.visualstudio.com/join?8AF7A1FA5A0BC4B4E56AA95467BDE35C9D9B
+https://prod.liveshare.vsengsaas.visualstudio.com/join?B3DA68A2CBD93E757DDDF56A4F1B15F5D04F
