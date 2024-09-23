@@ -5,12 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reajuste de Aluguel</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>CÁLCULO PARA REAJUSTE DE ALUGUEL:</h1>
-    <input type="text" placeholder="Digite o valor do aluguel" id="valor">
-    <input type="text" placeholder="Quanto tempo de aluglel?" id="tempo">
-    
-</body>
+    <form action="">
+        <select name="languages" id="lang">
+            <option value="buço">IPCA</option>
+            <option value="#">IGP-M</option>
+        </select>
+        <input type="text" placeholder="Quanto tempo de aluguel?(em meses)" id="tempo">
+        <input type="text" placeholder="Digite o valor do aluguel" id="valor">
+        <select>
+            <option value="#">Anual</option>
+            <option value="#">mensal</option>
+            <option value="#">trimestral</option>
+            <option value="#">bianual</option>
+        </select> 
+    </form>
+    <button onclick="calcula()">Calcular</button>
+
+
+    <h2>O que é o Reajuste de Aluguel?</h2>
+    <p>
+        O reajuste do aluguel é um direito do proprietário do imóvel, ou seja, do locatário. Ele é previsto pela Lei 8.245/91, também conhecida como a Lei do Inquilinato.É importante destacar que isso não quer dizer que o locatário tem o direito de alterar o valor do aluguel a qualquer momento. O reajuste de aluguel só pode ser feito uma vez ao ano e a alteração em seus valores é, geralmente, definida por índices de mercado. 
+        O cálculo do valor do reajuste de aluguel pode spornologiaer realizado de forma simples.
+    </p>
     <script src="script.js"></script>
+</body>
+  
 </html>
