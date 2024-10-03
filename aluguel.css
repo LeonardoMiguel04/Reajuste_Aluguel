@@ -1,0 +1,50 @@
+.tabela {
+    width: 400px;
+    height: 400px;
+    left: 690px;
+    top: 75px;
+    background-color: #f0f0f8; 
+    border: 2px solid #684c79; 
+}
+
+.tabela2{
+    width: 400px;
+    height: 400px;
+    left: 690px;
+    top: 75px;
+    background-color: #f0f0f8; 
+    border: 2px solid #684c79; 
+}
+
+.titulo1 {
+    text-align: center;
+    color: #684c79;
+}
+
+.titulo {
+    text-align: center;
+    color: #684c79;
+}
+
+.como {
+    left: 370px;
+    color: #684c79;
+}
+
+body {
+    background-color: #f3e5f5;
+    color: #684c79;
+}
+
+.h1 {
+    left: 400px;
+    color: #684c79;
+}
+
+select{
+    color: #684c79;
+}
+
+.tpcal{
+    left: 300px;
+}
