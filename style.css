@@ -31,4 +31,9 @@ th {
 .tpcal2{
     position: relative;
     left: 852px;
+    border-radius: 5px;
+}
+
+.botal{
+    border-radius: 5px;
 }
