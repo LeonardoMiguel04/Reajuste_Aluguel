@@ -1,0 +1,13 @@
+body{
+    background-color: antiquewhite;
+}
+
+.quest{
+    width: 1000px;
+    font-size: large;
+}
+
+.bogao{
+    border-radius: 20px;
+    background-color: rgb(255, 196, 0);
+}

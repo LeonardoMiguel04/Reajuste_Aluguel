@@ -1,3 +1,11 @@
+body{
+    background-color:  rgb(219, 219, 219);
+    
+}
+.pagina{
+   
+    align-items: center;
+}
 .titulo1 {
     text-align: center;
 }
@@ -21,6 +29,7 @@
     width: 200px;
     height: 50px;
     border-radius: 5px;
+    background-color: rgb(219, 219, 219);
 }
 
 *{
