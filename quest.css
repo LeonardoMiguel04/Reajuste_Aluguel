@@ -20,3 +20,20 @@ body{
 .vermelho{
     color: red;
 }
+
+.mae{
+    
+}
+
+.img{
+    position: relative;
+    width: 725px;
+    height: 375px;
+    left: 950px;
+    bottom: 890px;
+}
+
+.img img{
+    width: 725px;
+    height: 375px;
+}
