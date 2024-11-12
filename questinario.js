@@ -27,83 +27,83 @@ function funcao_resposta(){
 
     if(resp1 && resp2 && resp3 && resp4 && resp5 && resp6 && resp7 && resp8 && resp9 && resp10){
         if(resp1.value == "correta"){
-            document.getElementById("resp_correta_1").innerHTML = "Correta!"
+            document.getElementById("resp_correta_1").innerHTML = "Certa Resposta, Parabens!"
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_1").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"
+            document.getElementById("resp_errada_1").innerHTML = "Resposta Errada, Estude mais."
 
         }
         if(resp2.value == "correta"){
-            document.getElementById("resp_correta_2").innerHTML = "Correta!"
+            document.getElementById("resp_correta_2").innerHTML = "Certa Resposta, Parabens!"
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_2").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"
+            document.getElementById("resp_errada_2").innerHTML = "Resposta Errada, Estude mais."
 
         }
         if(resp3.value == "correta"){
-            document.getElementById("resp_correta_3").innerHTML = "Correta!"
+            document.getElementById("resp_correta_3").innerHTML = "Certa Resposta, Parabens!"
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_3").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"
+            document.getElementById("resp_errada_3").innerHTML = "Resposta Errada, Estude mais."
 
         }
         if(resp4.value == "correta"){
-            document.getElementById("resp_correta_4").innerHTML = "Correta!"
+            document.getElementById("resp_correta_4").innerHTML = "Certa Resposta, Parabens!"
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_4").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"
+            document.getElementById("resp_errada_4").innerHTML = "Resposta Errada, Estude mais."
 
         }
         if(resp4.value == "correta"){
-            document.getElementById("resp_correta_5").innerHTML = "Correta!"
+            document.getElementById("resp_correta_5").innerHTML = "Certa Resposta, Parabens!"
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_5").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"
+            document.getElementById("resp_errada_5").innerHTML = "Resposta Errada, Estude mais."
 
         }
         if(resp4.value == "correta"){
-            document.getElementById("resp_correta_6").innerHTML = "Correta!"
+            document.getElementById("resp_correta_6").innerHTML = "Certa Resposta, Parabens!"
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_6").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"
+            document.getElementById("resp_errada_6").innerHTML = "Resposta Errada, Estude mais."
 
         }
         if(resp4.value == "correta"){
-            document.getElementById("resp_correta_7").innerHTML = "Correta!"
+            document.getElementById("resp_correta_7").innerHTML = "Certa Resposta, Parabens!"
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_7").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"
+            document.getElementById("resp_errada_7").innerHTML = "Resposta Errada, Estude mais."
 
         }
         if(resp4.value == "correta"){
-            document.getElementById("resp_correta_8").innerHTML = "Correta!"
+            document.getElementById("resp_correta_8").innerHTML = "Certa Resposta, Parabens!"
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_8").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"
+            document.getElementById("resp_errada_8").innerHTML = "Resposta Errada, Estude mais."
 
         }
         if(resp4.value == "correta"){
-            document.getElementById("resp_correta_9").innerHTML = "Correta!"
+            document.getElementById("resp_correta_9").innerHTML = "Certa Resposta, Parabens!"
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_9").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"
+            document.getElementById("resp_errada_9").innerHTML = "Resposta Errada, Estude mais."
 
         }
         if(resp4.value == "correta"){
-            document.getElementById("resp_correta_10").innerHTML = "Correta!"
+            document.getElementById("resp_correta_10").innerHTML = "Certa Resposta, Parabens!"
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_10").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"
+            document.getElementById("resp_errada_10").innerHTML = "Resposta Errada, Estude mais."
 
         }
         document.getElementById("quantos_acertos").innerHTML = "Você acertou " + contador + " questões!";
