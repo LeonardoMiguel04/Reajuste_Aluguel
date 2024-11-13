@@ -31,7 +31,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_1").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"
+            document.getElementById("resp_errada_1").innerHTML = "Errada, pois deve ser feito a multiplicação do valor atual do aluguel pelo índice acumulado no período de um ano"
 
         }
         if(resp2.value == "correta"){
@@ -39,7 +39,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_2").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"
+            document.getElementById("resp_errada_2").innerHTML = "Errada, A lei do Inquilinato não estipula um valor específico para o aumento"
 
         }
         if(resp3.value == "correta"){
@@ -47,7 +47,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_3").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"
+            document.getElementById("resp_errada_3").innerHTML = "Errada, a lei atualizada é a Lei 8.245/91"
 
         }
         if(resp4.value == "correta"){
@@ -55,7 +55,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_4").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"
+            document.getElementById("resp_errada_4").innerHTML = "Errada, a Lei fala que é válido. No entanto, vale ressaltar que em uma locação sem contrato formal, a situação é diferente em relação aos reajustes de aluguel"
 
         }
         if(resp4.value == "correta"){
@@ -63,7 +63,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_5").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"
+            document.getElementById("resp_errada_5").innerHTML = "Errada, é obrigado pois é um direito do proprietário do imóvel"
 
         }
         if(resp4.value == "correta"){
@@ -71,7 +71,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_6").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"
+            document.getElementById("resp_errada_6").innerHTML = "Errada, Pois para calcular o valor final, multiplicamos o valor inicial por 1,032 (1 + 0,032). O resultado é R$ 1.032,00, que é o valor após 1 ano."
 
         }
         if(resp4.value == "correta"){
@@ -79,7 +79,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_7").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"
+            document.getElementById("resp_errada_7").innerHTML = "Errada, Pois para calcular o valor final, multiplicamos o valor inicial por 900,026 (1 + 0,026). O resultado é R$ 923,40, que é o valor após 3 meses."
 
         }
         if(resp4.value == "correta"){
@@ -87,7 +87,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_8").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"
+            document.getElementById("resp_errada_8").innerHTML = "Errada, Pois para calcular o valor final, multiplicamos o valor inicial por 800,030 (1 + 0,030). O resultado é R$ 824,00, que é o valor após 1 ano."
 
         }
         if(resp4.value == "correta"){
@@ -95,7 +95,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_9").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"
+            document.getElementById("resp_errada_9").innerHTML = "Errada, Pois para calcular o valor final, multiplicamos o valor inicial por 1.200,30 (1 + 0,030). O resultado é R$ 1236.00, que é o valor após 1 ano."
 
         }
         if(resp4.value == "correta"){
@@ -103,7 +103,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_10").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"
+            document.getElementById("resp_errada_10").innerHTML = "Errada, Pois para calcular o valor final, multiplicamos o valor inicial por 1,034 (1 + 0,034). O resultado é R$ 1.344,20, que é o valor após 1 ano."
 
         }
         document.getElementById("quantos_acertos").innerHTML = "Você acertou " + contador + "/10 questões!";
