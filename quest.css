@@ -2,7 +2,7 @@ body{
     background-color: rgb(219, 219, 219);
 }
 
-.quest{
+.questio{
     width: 1000px;
     font-size: large;
 }
@@ -22,7 +22,7 @@ body{
 }
 
 .mae{
-    
+    padding-left: 30px;
 }
 
 .img{
@@ -36,4 +36,8 @@ body{
 .img img{
     width: 725px;
     height: 375px;
+}
+
+.tilt{
+    text-align: center;
 }

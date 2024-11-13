@@ -106,7 +106,7 @@ function funcao_resposta(){
             document.getElementById("resp_errada_10").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"
 
         }
-        document.getElementById("quantos_acertos").innerHTML = "Você acertou " + contador + " questões!";
+        document.getElementById("quantos_acertos").innerHTML = "Você acertou " + contador + "/10 questões!";
     }
     else{
         alert("não deixe questões em branco!")
