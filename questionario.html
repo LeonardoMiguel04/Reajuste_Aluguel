@@ -9,7 +9,10 @@
 <body>
     <script src="questinario.js"></script>
     <script src="script.js"></script>
-    <h1 class="tilt">Questionário sobre Reajuste de Aluguel</h1>
+    <header>
+        <h1 class="tilt">Questionário sobre Reajuste de Aluguel</h1>
+    </header>  
+    <main>  
         <div class="mae">
             
             <div class="card">
@@ -70,10 +73,10 @@
 
             <div class="card">
                 <h3>7)Paulo financiou um imóvel por R$900.00 com uma<br> porcentagem de 2.6% em IGP-M, qual será o valor final 3 meses após?</h3>
-                <input type="radio" name="quest_7" value="correta">R$ 923.40 <br>
-                <input type="radio" name="quest_7" value="errada">R$ 577.40 <br>
-                <input type="radio" name="quest_7" value="errada">R$ 689.40 <br>
-                <input type="radio" name="quest_7" value="errada">R$ 888.40 <br>
+                <input type="radio" name="quest_7" value="correta">R$ 993.00 <br>
+                <input type="radio" name="quest_7" value="errada">R$ 577.00 <br>
+                <input type="radio" name="quest_7" value="errada">R$ 689.00 <br>
+                <input type="radio" name="quest_7" value="errada">R$ 888.00 <br>
                 <p id="resp_correta_7" class="verde"></p><p id="resp_errada_7" class="vermelho"></p><br>
             </div>
 
@@ -106,7 +109,8 @@
                 
             <div class="acertos">
                 <p id="quantos_acertos"></p>
-                <button class="bogao" type="button" onclick="funcao_resposta()">Responder</button>
+                <a href="index.html"><button class="bogado">Voltar Á Página Inicial</button></a> 
+                <button class="bogao" type="button" onclick="funcao_resposta()">Enviar Resposta</button>
             </div>
 
             </form>
@@ -116,6 +120,9 @@
             <img src="images/pngwing.com.png">
             </div>
         </div>
+    </main>
+    <footer>
+    </footer>
 </body>
 </html>
 

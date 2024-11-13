@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 body{
     background-color: rgb(219, 219, 219);
 }
@@ -40,4 +43,38 @@ body{
 
 .tilt{
     text-align: center;
+    padding-top: 15px;
+}
+
+header{
+    background-color: rgb(124, 123, 123);
+    grid-area: cabeca;
+    font-family: "Montserrat";
+}
+
+main{
+    grid-area: meio;
+}
+
+footer{
+    grid-area: pe;
+    background-color: rgb(124, 123, 123);
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+    "cabeca cabeca cabeca"
+    "meio meio meio"
+    "pe pe pe";
+    grid-template-columns: auto auto 100px;
+    grid-template-rows: 125px 83% auto;
+    margin: 0px;
+}
+
+.bogado{
+    border-radius: 45px;
+    background-color: rgb(124, 123, 123);
+    color: rgb(236, 229, 229);
+    border-color: gray;
 }
