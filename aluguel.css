@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color:  rgb(207, 207, 207);
+    background-color:  rgb(255, 255, 255);
     display: grid;
     grid-template-areas: 
     "cabeca cabeca cabeca"
@@ -21,7 +21,7 @@ body{
 header{
     grid-area: cabeca;
     background-color: rgb(124, 123, 123);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 50px;
     font-family: "Lobster";
@@ -41,7 +41,32 @@ footer{
     height: 50px;
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: rgb(124, 123, 123);
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.2s;
+    cursor: pointer;
 }
+
+.tpcal:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 0 0 20px #6fc5ff50;
+  transform: scale(1.1);
+}
+
+.tpcal:active {
+  background-color: #6fc5ff50;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: none;
+  transform: scale(0.98);
+}
+
 
 
 .pagina{
@@ -51,7 +76,8 @@ footer{
 }
 
 .card{
-    border: #000000 solid;
+    border: none;
+    box-shadow: 12px 10px 10px 4px rgba(0, 0, 0, 0.4); 
     width: 800px;
     height: 350px;
     display: flex;
@@ -59,7 +85,7 @@ footer{
     justify-content: center;
     text-align: center;
     margin: 20px;
-    background-color: #FFFFFF;
+    background-color: rgb(207, 207, 207);
     border-radius: 20px;
 }
 
