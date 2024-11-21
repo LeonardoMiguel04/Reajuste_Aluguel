@@ -8,20 +8,50 @@
 
 .h1{
     font-family: 'Lobster';
+    text-align: center;
+    padding-top: 35px;
+    color: white;
 }
 
 button{
     background-color: white;
 }
 
+header{
+    background-color: rgb(124, 123, 123);
+    grid-area: cabeca;
+} 
+
+main{
+    grid-area: meio;
+}
+
+footer{
+    grid-area: pe;
+}
+
 body{
     background-color: rgb(219, 219, 219);
+    display: grid;
+    grid-template-areas: 
+    "cabeca cabeca cabeca"
+    "meio meio meio"
+    "pe pe pe";
+    grid-template-columns: auto auto 100px;
+    grid-template-rows: 125px 90% 100px;
+    margin: 0px;
+    
+}
+
+h2{
+    margin: 15px;
+    padding-left: 35px;
 }
 
 table{
     width: 500px;
     border-collapse: collapse;
-    margin: 10px;
+    margin: 25px;
 }
 th, td {
     border: 1px solid #000;
@@ -40,6 +70,7 @@ tr{
 
 .reajust{
     text-align: center;
+    padding-top: 150px;
 }
 
 .reajust input{
