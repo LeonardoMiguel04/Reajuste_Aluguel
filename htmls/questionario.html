@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/quest.css">
+  <title>Questionário sobre Reajuste de Aluguel</title>
+</head>
+<body onload="inclui_nome()">
+  <div class="container">
+    <h1>Questionário sobre Reajuste de Aluguel</h1>
+    <p>Bem-vindo, <span id="marcacao_nome"></span>! Responda ao questionário abaixo.</p>
+    <form>
+      <!-- Questão 1 -->
+      <div class="question">
+        <label>1. Qual é o índice mais usado para reajuste de aluguel?</label><br>
+        <input type="radio" name="quest_1" value="correta" id="quest1-a">
+        <label for="quest1-a">IPCA</label><br>
+        <input type="radio" name="quest_1" value="errada" id="quest1-b">
+        <label for="quest1-b">Taxa SELIC</label><br>
+        <input type="radio" name="quest_1" value="errada" id="quest1-c">
+        <label for="quest1-c">INSS</label><br>
+        <span id="resp_correta_1" class="response correct"></span>
+        <span id="resp_errada_1" class="response wrong"></span>
+      </div>
+
+      <!-- Questão 2 -->
+      <div class="question">
+        <label>2. Quando é feito o reajuste de aluguel?</label><br>
+        <input type="radio" name="quest_2" value="correta" id="quest2-a">
+        <label for="quest2-a">Anualmente, no aniversário do contrato</label><br>
+        <input type="radio" name="quest_2" value="errada" id="quest2-b">
+        <label for="quest2-b">A cada 5 anos</label><br>
+        <input type="radio" name="quest_2" value="errada" id="quest2-c">
+        <label for="quest2-c">Mensalmente</label><br>
+        <span id="resp_correta_2" class="response correct"></span>
+        <span id="resp_errada_2" class="response wrong"></span>
+      </div>
+
+      <!-- Mais questões podem ser adicionadas aqui -->
+
+      <button type="button" onclick="funcao_resposta()">Enviar Respostas</button>
+    </form>
+    <div class="results">
+      <p id="quantos_acertos"></p>
+    </div>
+    <button onclick="window.location.href='/index.html';">Voltar à Calculadora</button>
+    <button onclick="window.location.href='reajust.html';">O que é Reajuste?</button>
+  </div>
+  <script src="/js/quest.js"></script>
+</body>
+</html>

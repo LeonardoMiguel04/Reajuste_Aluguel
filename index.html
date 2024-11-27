@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Reajuste de aluguel</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Reajuste de aluguel</h1>
+        <form id="reajuste-form">
+          <label for="valor-aluguel">1. Valor do aluguel no início do contrato:</label>
+          <input type="number" id="valor-aluguel" placeholder="Ex: 1500" required />
+    
+          <label for="data-inicio">2. Data do início do contrato:</label>
+          <input type="date" id="data-inicio" required />
+    
+          <label for="indice">3. Índice de reajuste:</label>
+          <select id="indice" required>
+            <option value="ipca">IPCA - Índice de Preços ao Consumidor Amplo</option>
+            <option value="igpm">IGP-M - Índice Geral de Preços do Mercado</option>
+          </select>
+    
+          <label for="periodicidade">4. Periodicidade do reajuste:</label>
+          <select id="periodicidade" required>
+            <option value="anual">Anual</option>
+            <option value="mensal">Mensal</option>
+          </select>
+    
+          <button type="button" onclick="calcularReajuste()">Continuar</button>
+          <button type="reset">Limpar</button>
+        </form>
+    
+        <div class="result-container">
+          <h2>Resultado:</h2>
+          <p id="resultado" class="result-highlight">Preencha os dados para calcular o reajuste.</p>
+    
+          <div id="tabela-variação" style="display: none;">
+            <h2>Variação dos Índices (Últimos 3 anos)</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th>Ano</th>
+                  <th>IPCA (%)</th>
+                  <th>IGP-M (%)</th>
+                </tr>
+              </thead>
+              <tbody id="tabela-dados">
+                <!-- Dados serão gerados dinamicamente -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+    
+        <!-- Botões adicionais -->
+        <button class="secondary-button" onclick="window.location.href='htmls/questionario.html';">
+          Ir para o Questionário
+        </button>
+        <button class="secondary-button" onclick="window.location.href='htmls/reajust.html';">
+          O que é reajuste de aluguel?
+        </button>
+      </div>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
